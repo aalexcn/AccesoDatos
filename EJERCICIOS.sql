@@ -74,7 +74,7 @@
        BEGIN
           cadena_reves := CadenaReves('Hola Diego al reves');
           DBMS_OUTPUT.PUT_LINE('Cadena original: Hola Diego al reves');
-          DBMS_OUTPUT.PUT_LINE('Cadena al revés: ' || v_cadena_invertida);
+          DBMS_OUTPUT.PUT_LINE('Cadena al revés: ' || cadena_reves);
        END;
       /
 
