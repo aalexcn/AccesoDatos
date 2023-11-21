@@ -44,10 +44,10 @@
 
 
         DECLARE
-          v_resultado NUMBER;
+          resultado NUMBER;
         BEGIN
-          v_resultado := SumarNumeros(10, 3);
-          DBMS_OUTPUT.PUT_LINE('La suma de los números es igual a: ' || v_resultado);
+          resultado := SumarNumeros(10, 3);
+          DBMS_OUTPUT.PUT_LINE('La suma de los números es igual a: ' || resultado);
          END;
         /
 
@@ -88,6 +88,8 @@
      END;
      /
 
+
+5)Escribe un bloque PL/SQL que haga uso de la función anterior.
      DECLARE
         anio NUMBER;
      BEGIN
